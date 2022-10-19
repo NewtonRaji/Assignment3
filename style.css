@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding:20px 5% 10px;
+    box-shadow: 0 10px 10px 0.5 ;
+}
+nav .logo img{
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.Icon{
+    display: flex;
+    align-items: center;
+}
+.Icon a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.Icon P{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: slateblue;
+    text-align: center;
+    border-radius:50px ;
+    color: #fff;padding: 5px 0;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.content .left-col{
+    flex-basis: 19%;
+}
+.content .left-col span{
+    background: rgb(29, 141, 175);
+    display: block;
+    padding: 10px 10px 10px 15px;
+    margin: 2px 0;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    
+}
+.content .left-col span img{
+    width: 15px;
+    margin-right: 30px;
+    filter: invert(1);
+    cursor: pointer;
+}
+.right-col{
+    max-width: 80%;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.right-col-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 20px;
+    flex-basis: 18.5%;
+}
+.right-col-text{
+    flex-basis: 18.5%;
+    justify-content: space-between;
+    padding: 10px 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.right-col-text img{
+    width: 25px;
+    cursor: pointer;
+}
+.right-col-text p{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.right-col-text div span{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
